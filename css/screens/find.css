@@ -27,5 +27,5 @@
 
 .recommended-friends__title {
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--gray);
 }
