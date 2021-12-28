@@ -3,8 +3,12 @@
   margin-bottom: 15px;
   display: flex;
   align-items: center;
-  text-align: right;
-  /* justify-content: space-between; */
+  justify-content: center;
+}
+
+.alt-header__column {
+  width: 33%;
+  /* 너비를 3등분함 hack*/
 }
 
 .alt-header__title {
@@ -16,10 +20,16 @@
   margin-right: auto;
 }
 
-.alt-header__column:last-child {
-  margin-left: auto;
+.alt-header__column:nth-child(2) {
+  text-align: center;
 }
 
-/* .alt-header__column span {
-  margin-right: 10px;
-} */
+.alt-header__column:last-child {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-header__column span:last-child {
+  margin-left: 20px;
+}
