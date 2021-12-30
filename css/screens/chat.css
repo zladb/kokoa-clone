@@ -87,10 +87,10 @@
 .reply {
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 92%;
   background-color: white;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 5px 25px;
   align-items: center;
 }
@@ -105,8 +105,9 @@
 }
 
 .reply input {
+  padding: 2px 18px;
   height: 30px;
-  width: 100%;
+  width: 95%;
   border: var(--main-border);
   border-radius: 20px;
 }
@@ -114,12 +115,12 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: -3px;
+  right: -11px;
   top: 2px;
 }
 
 .reply__column:last-child > i {
-  right: 40px;
+  right: 30px;
   top: 10px;
 }
 
@@ -129,4 +130,12 @@
   width: 30px;
   height: 30px;
   border-radius: 15px;
+}
+
+.reply i {
+  opacity: 0.5;
+}
+
+.reply__column button i {
+  opacity: 1;
 }
