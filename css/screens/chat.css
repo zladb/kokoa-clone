@@ -78,9 +78,8 @@
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-left: 5px;
-  order: 1;
 }
 
-.message-row-own .message__time {
-  order: 0;
+.message-row-own .message__info {
+  flex-direction: row-reverse;
 }
